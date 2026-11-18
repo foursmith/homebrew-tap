@@ -1,28 +1,28 @@
 class Vl < Formula
   desc "Terminal workbench for browsing code, reviewing diffs, and making quick edits"
   homepage "https://github.com/foursmith/vl"
-  version "0.1.0"
+  version "0.1.1"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/foursmith/vl/releases/download/v0.1.0/vl_0.1.0_darwin_arm64.tar.gz"
-      sha256 "ad89f59d5b1be414496beba860dcd5e060f451aac2113ddf87751affac70e8d9"
+      url "https://github.com/foursmith/vl/releases/download/v0.1.1/vl_0.1.1_darwin_arm64.tar.gz"
+      sha256 "25af248e790c2dc250f2e75ec7b0cb47dc95a3969222a9673af2e5e07e742e7e"
     end
     on_intel do
-      url "https://github.com/foursmith/vl/releases/download/v0.1.0/vl_0.1.0_darwin_x86_64.tar.gz"
-      sha256 "572893555ab59fabec422422e89d65d22603cf55f953db4389fa510b36a2c856"
+      url "https://github.com/foursmith/vl/releases/download/v0.1.1/vl_0.1.1_darwin_x86_64.tar.gz"
+      sha256 "0511c7e5574755e3b4ac33193bdc2619a8be911ff9b354066a5b8620a6c1e1c7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/foursmith/vl/releases/download/v0.1.0/vl_0.1.0_linux_arm64.tar.gz"
-      sha256 "d85b8f1a8001bb345eda3bc4fc5c102c54716d2c51ab8e1529003f1a0b67488d"
+      url "https://github.com/foursmith/vl/releases/download/v0.1.1/vl_0.1.1_linux_arm64.tar.gz"
+      sha256 "3eeccac48ab65b9085d9ae567e9138bc300d2cbf617340ba208d3062eb9d98af"
     end
     on_intel do
-      url "https://github.com/foursmith/vl/releases/download/v0.1.0/vl_0.1.0_linux_x86_64.tar.gz"
-      sha256 "856a1b12f14495b64e85450e9ab789ca2fb01ed4640203f95ccdc4346c3e142a"
+      url "https://github.com/foursmith/vl/releases/download/v0.1.1/vl_0.1.1_linux_x86_64.tar.gz"
+      sha256 "846a894667dfc71a08133ae080e6f06ee1ebb5c139b76a36c1dac6eccced9ab8"
     end
   end
 
@@ -32,6 +32,6 @@ class Vl < Formula
   end
 
   test do
-    assert_equal "vl #{version}", shell_output("#{bin}/vl -version").strip
+    assert_equal "vl #{version}", shell_output("#{bin}/vl --version").strip
   end
 end

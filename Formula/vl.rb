@@ -1,28 +1,28 @@
 class Vl < Formula
   desc "Terminal workbench for browsing code, reviewing diffs, and making quick edits"
   homepage "https://github.com/foursmith/vl"
-  version "0.1.3"
+  version "0.1.4"
   license "MPL-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/foursmith/vl/releases/download/v0.1.3/vl_0.1.3_darwin_arm64.tar.gz"
-      sha256 "6a83349745b279ce71ae9cc1a1f10205219dfe412472b0e1c14c56a2f5f5a677"
+      url "https://github.com/foursmith/vl/releases/download/v0.1.4/vl_0.1.4_darwin_arm64.tar.gz"
+      sha256 "e9dc8fd97c34eb4ef6c0499f09c674d2381ff9f8cad1caa59ae0372de7123ed0"
     end
     on_intel do
-      url "https://github.com/foursmith/vl/releases/download/v0.1.3/vl_0.1.3_darwin_x86_64.tar.gz"
-      sha256 "f5285b660cf90026abe22bd057283c952d036364d0811df3bd24a3afa03deeef"
+      url "https://github.com/foursmith/vl/releases/download/v0.1.4/vl_0.1.4_darwin_x86_64.tar.gz"
+      sha256 "c9b9fa77b299d4185e37e5bf338e37043db49702b8d31152b49fc37b377cd010"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/foursmith/vl/releases/download/v0.1.3/vl_0.1.3_linux_arm64.tar.gz"
-      sha256 "f937ce7d90992ecb9147e4becf501a65257b8da3a2fe281983cd3ac8e954af88"
+      url "https://github.com/foursmith/vl/releases/download/v0.1.4/vl_0.1.4_linux_arm64.tar.gz"
+      sha256 "fc5f3c44554b91000198b441db4f1e8286053bf01426dfc8fa88bdbc4e5f880f"
     end
     on_intel do
-      url "https://github.com/foursmith/vl/releases/download/v0.1.3/vl_0.1.3_linux_x86_64.tar.gz"
-      sha256 "3e5a49a0ea3b3a5f71bc0de5def615cd3d780a23788c71ff6515f6b1b5c330d6"
+      url "https://github.com/foursmith/vl/releases/download/v0.1.4/vl_0.1.4_linux_x86_64.tar.gz"
+      sha256 "e39a1789c4e549a68393059354f21d74d2a17743be9fb32c7adff90237868407"
     end
   end
 
